@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - lint: make lint
-      - uses: hexlet/project-action@release
-      - run: ls -la
+      - uses: actions/checkout@v2
