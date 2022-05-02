@@ -10,7 +10,7 @@ def welcome_user():
 
 def get_message(answer, correct_answer, name):
     if is_answer_correct(answer, correct_answer):
-        return 'Correct!!!'
+        return 'Correct!'
 
     if correct_answer == 'no':
         return f"'yes' is wrong answer ;(.\nCorrect answer was 'no'. Let's try again, {name}!"
