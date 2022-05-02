@@ -8,6 +8,7 @@ def welcome_user():
     print(f'Hello, {name}!')
     return name
 
+
 def get_message(answer, correct_answer, name):
     if is_answer_correct(answer, correct_answer):
         return 'Correct!'
@@ -28,19 +29,19 @@ def ans(number):
 def is_answer_correct(answer, correct_answer):
     return answer.lower() == correct_answer
 
+
 def even_odd():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i <= COUNT_OF_ROUNDS:
-        random_number = randint(1,100)
+        random_number = randint(1, 100)
         question = f'Question: {random_number}'
         print(question)
-        answer = prompt.string(f'Answer: ')
+        answer = prompt.string('Answer: ')
         correct_answer = ans(random_number)
-        #print(correct_answer)
-        print(get_message(answer, correct_answer,name))
-        if is_answer_correct(answer, correct_answer) == False:
+        print(get_message(answer, correct_answer, name))
+        if not is_answer_correct(answer, correct_answer):
             break
         i += 1
         if i == 3:
