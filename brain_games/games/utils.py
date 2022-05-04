@@ -13,19 +13,16 @@ def get_message(answer, correct_answer, name):
         return 'Correct!'
 
     if correct_answer == 'no':
-        return "'yes' is wrong answer ;(."
-        + f"\nCorrect answer was 'no'. Let's try again, {name}!"
+        return f"'yes' is wrong answer ;(.\nCorrect answer was 'no'. Let's try again, {name}!"
 
-    return "'no' is wrong answer ;(."
-    + f"\nCorrect answer was 'yes'. Let's try again, {name}!"
+    return "'no' is wrong answer ;(.\nCorrect answer was 'yes'. Let's try again, {name}!"
 
 
 def response_comparison(answer, correct_answer, name):
     if is_answer_correct(answer, correct_answer):
         return 'Correct!'
 
-    return f"'{answer}' is wrong answer ;(. "
-    + f"Correct answer was '{correct_answer}'.\nLet's try again, {name}!"
+    return f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!"
 
 
 def ans(number):
