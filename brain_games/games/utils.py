@@ -34,3 +34,10 @@ def ans(number):
 
 def is_answer_correct(answer, correct_answer):
     return answer.lower() == str(correct_answer)
+
+
+def is_prime(number):
+    d = 2
+    while d * d <= number and number % d != 0:
+        d += 1
+    return d * d > number

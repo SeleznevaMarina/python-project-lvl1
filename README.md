@@ -7,6 +7,8 @@
 
 [![brain-calc](https://asciinema.org/a/bISaiwBNgFP9xZjPoysQfPh7P.svg)](https://asciinema.org/a/bISaiwBNgFP9xZjPoysQfPh7P?autoplay=1)
 
- [![brain-gcd](https://asciinema.org/a/F5STz88u5mKkC5HNOXTFuO7gY.svg)](https://asciinema.org/a/F5STz88u5mKkC5HNOXTFuO7gY?autoplay=1)
+[![brain-gcd](https://asciinema.org/a/F5STz88u5mKkC5HNOXTFuO7gY.svg)](https://asciinema.org/a/F5STz88u5mKkC5HNOXTFuO7gY?autoplay=1)
 
- [![brain-gcd](https://asciinema.org/a/mRdMRCUcp62LHy7wEH9bT6iAn.svg)](https://asciinema.org/a/mRdMRCUcp62LHy7wEH9bT6iAn?autoplay=1)
+[![brain-gcd](https://asciinema.org/a/mRdMRCUcp62LHy7wEH9bT6iAn.svg)](https://asciinema.org/a/mRdMRCUcp62LHy7wEH9bT6iAn?autoplay=1)
+
+[![brain-gcd](https://asciinema.org/a/BZuWEp8ihZg4aWKggsFGi6TJK.svg)](https://asciinema.org/a/BZuWEp8ihZg4aWKggsFGi6TJK?autoplay=1)
