@@ -15,7 +15,7 @@ def get_message(answer, correct_answer, name):
     if correct_answer == 'no':
         return f"'yes' is wrong answer ;(.\nCorrect answer was 'no'. Let's try again, {name}!"
 
-    return "'no' is wrong answer ;(.\nCorrect answer was 'yes'. Let's try again, {name}!"
+    return f"'no' is wrong answer ;(.\nCorrect answer was 'yes'. Let's try again, {name}!"
 
 
 def response_comparison(answer, correct_answer, name):
