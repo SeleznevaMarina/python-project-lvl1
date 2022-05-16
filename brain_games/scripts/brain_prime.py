@@ -1,9 +1,9 @@
-from brain_games.games import prime
+from brain_games.games.game_frame import game, PRIME
 
 
 def main():
     print('Welcome to the Brain Games!')
-    prime.prime_number()
+    game(PRIME)
 
 
 if __name__ == '__main__':

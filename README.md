@@ -3,8 +3,6 @@
 
 [![brain-games](https://github.com/SeleznevaMarina/python-project-lvl1/workflows/brain-games/badge.svg?event=push)](https://github.com/SeleznevaMarina/python-project-lvl1/actions/workflows/brain-games.yml)
 
-[![Code climate](https://github.com/SeleznevaMarina/python-project-lvl1/tree/a6aba3ddcee9b4afc533979dd58eddbc554e6fd8/dist/badge.svg)](https://github.com/SeleznevaMarina/python-project-lvl1/actions)
-
 [![brain-even](https://asciinema.org/a/RijUWO0MQ4vqkysGtY5JCkyMG.svg)](https://asciinema.org/a/RijUWO0MQ4vqkysGtY5JCkyMG?autoplay=1)
 
 [![brain-calc](https://asciinema.org/a/bISaiwBNgFP9xZjPoysQfPh7P.svg)](https://asciinema.org/a/bISaiwBNgFP9xZjPoysQfPh7P?autoplay=1)

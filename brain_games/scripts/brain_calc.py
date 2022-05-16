@@ -1,9 +1,9 @@
-from brain_games.games import calc
+from brain_games.games.game_frame import game, CALC
 
 
 def main():
     print('Welcome to the Brain Games!')
-    calc.calculation()
+    game(CALC)
 
 
 if __name__ == '__main__':

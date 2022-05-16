@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.games import even
+from brain_games.games.game_frame import game, EVEN
 
 
 def main():
     print('Welcome to the Brain Games!')
-    even.even_odd()
+    game(EVEN)
 
 
 if __name__ == '__main__':
