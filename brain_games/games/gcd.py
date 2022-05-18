@@ -1,8 +1,9 @@
 from random import randint
 from math import gcd
+QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
-def get_var_gcd():
+def get_var():
     a = randint(1, 100)
     b = randint(1, 50)
     task = f'{a} {b}'

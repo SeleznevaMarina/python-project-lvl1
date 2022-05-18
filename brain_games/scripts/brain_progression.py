@@ -1,9 +1,10 @@
-from brain_games.games.game_frame import game, PROGRESS
+from brain_games.game_frame import run_game
+from brain_games.games import progress
 
 
 def main():
     print('Welcome to the Brain Games!')
-    game(PROGRESS)
+    run_game(progress)
 
 
 if __name__ == '__main__':

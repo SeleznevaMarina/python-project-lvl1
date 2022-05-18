@@ -1,15 +1,13 @@
 from random import randint
+QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_var_even():
-    random_number = randint(1, 100)
-    task = random_number
-    correct_answer = ans(random_number)
+def get_var():
+    task = randint(1, 100)
+
+    if task % 2 == 0:
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+
     return (task, correct_answer)
-
-
-def ans(number):
-    if number % 2 == 0:
-        return 'yes'
-
-    return 'no'

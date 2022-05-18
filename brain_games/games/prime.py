@@ -1,10 +1,11 @@
 from random import randint
+QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_var_prime():
+def get_var():
     task = randint(1, 100)
 
-    if is_prime(task):
+    if is_prime(task) and task >= 1:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'

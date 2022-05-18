@@ -1,9 +1,10 @@
-from brain_games.games.game_frame import game, GCD
+from brain_games.game_frame import run_game
+from brain_games.games import gcd
 
 
 def main():
     print('Welcome to the Brain Games!')
-    game(GCD)
+    run_game(gcd)
 
 
 if __name__ == '__main__':
