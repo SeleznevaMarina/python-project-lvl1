@@ -2,36 +2,26 @@ import prompt
 COUNT_OF_ROUNDS = 3
 
 
-def run_game(game_name):
-    name = welcome_user()
-    question = game_name.QUESTION
-    print(question)
-    i = 0
-    while i <= COUNT_OF_ROUNDS:
-        variables = game_name.get_var()
-        task = variables[0]
-        correct_answer = variables[1]
-        print(f'Question: {task}')
-        answer = prompt.string('Answer: ')
-        print(response_comparison(answer, correct_answer, name))
-        if not answer.lower() == str(correct_answer):
-            break
-        i += 1
-        if i == COUNT_OF_ROUNDS:
-            print(f'Congratulations, {name}!')
-            break
-
-
-def welcome_user():
+def run(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    return name
+    question = game.QUESTION
+    print(question)
 
+    for i in range(0, COUNT_OF_ROUNDS):
+        variables = game.get_task_answer()
+        (task, correct_answer) = variables
+        print(f'Question: {task}')
+        answer = prompt.string('Answer: ')
 
-def response_comparison(answer, correct_answer, name):
-    if answer.lower() == str(correct_answer):
-        return 'Correct!'
+        if not answer.lower() == correct_answer:
+            a = f"'{answer}' is wrong answer ;(. Correct answer was "
+            b = f"'{correct_answer}'.\nLet's try again, {name}!"
+            print(a + b)
+            break
+        else:
+            print('Correct!')
 
-    a = f"'{answer}' is wrong answer ;(. "
-    b = f"Correct answer was '{correct_answer}'.\nLet's try again, {name}!"
-    return a + b
+    else:
+        if i == COUNT_OF_ROUNDS - 1:
+            print(f'Congratulations, {name}!')

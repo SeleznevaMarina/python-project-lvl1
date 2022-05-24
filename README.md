@@ -7,8 +7,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/854aec907bbf8707e1ad/maintainability)](https://codeclimate.com/github/SeleznevaMarina/python-project-lvl1/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/854aec907bbf8707e1ad/test_coverage)](https://codeclimate.com/github/SeleznevaMarina/python-project-lvl1/test_coverage)
-
 ### Asciinemas
 
 [![brain-calc](https://asciinema.org/a/kpb9BZEBsVTKST7y0foda7yYn.svg)](https://asciinema.org/a/kpb9BZEBsVTKST7y0foda7yYn?autoplay=1)
