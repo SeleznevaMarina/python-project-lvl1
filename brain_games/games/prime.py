@@ -16,10 +16,7 @@ def get_task_answer():
 def is_prime(number):
 
     if number >= 1:
-        d = 2
-        while d < number and number % d == 0:
-            d += 1
-            return False
+        for d in range(2, number):
+            if number % d == 0:
+                return False
         return True
-    else:
-        return False
