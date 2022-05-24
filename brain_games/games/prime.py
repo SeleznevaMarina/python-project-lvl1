@@ -17,7 +17,7 @@ def is_prime(number):
 
     if number >= 1:
         d = 2
-        while d * d <= number and number % d == 0:
+        while d < number and number % d == 0:
             d += 1
             return False
         return True
