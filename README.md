@@ -1,3 +1,5 @@
+Вас приветствует игра brain-games! В этой игре объявляются правила, согласно которым вы должны следовать. Если вы правильно отвечаете на 3 вопроса, вы выиграли, если же хоть на один ответ неверный - проиграли.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SeleznevaMarina/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SeleznevaMarina/python-project-lvl1/actions)
 

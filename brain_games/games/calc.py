@@ -1,21 +1,19 @@
 from random import randint, choice
-QUESTION = 'What is the result of the expression?'
-
-
-operators = ['+', '-', '*']
+GAME_RULES = 'What is the result of the expression?'
 
 
 def get_task_answer():
+    operators = ['+', '-', '*']
     operation = choice(operators)
     a = randint(1, 100)
     b = randint(1, 10)
     task = f'{a} {operation} {b}'
 
     if operation == '+':
-        correct_answer = str(a + b)
+        correct_answer = a + b
     elif operation == '-':
-        correct_answer = str(a - b)
+        correct_answer = a - b
     elif operation == '*':
-        correct_answer = str(a * b)
+        correct_answer = a * b
 
-    return (task, correct_answer)
+    return (task, str(correct_answer))

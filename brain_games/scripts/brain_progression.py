@@ -3,7 +3,6 @@ from brain_games.games import progress
 
 
 def main():
-    print('Welcome to the Brain Games!')
     run(progress)
 
 

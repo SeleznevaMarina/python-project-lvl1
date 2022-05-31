@@ -3,25 +3,21 @@ COUNT_OF_ROUNDS = 3
 
 
 def run(game):
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    question = game.QUESTION
-    print(question)
+    print(game.GAME_RULES)
 
-    for i in range(0, COUNT_OF_ROUNDS):
-        variables = game.get_task_answer()
-        (task, correct_answer) = variables
+    for i in range(COUNT_OF_ROUNDS):
+        (task, correct_answer) = game.get_task_answer()
         print(f'Question: {task}')
         answer = prompt.string('Answer: ')
 
         if not answer.lower() == correct_answer:
-            a = f"'{answer}' is wrong answer ;(. Correct answer was "
-            b = f"'{correct_answer}'.\nLet's try again, {name}!"
-            print(a + b)
+            print(f"'{answer}' is wrong answer ;(. Correct answer was ")
+            print(f"'{correct_answer}'.\nLet's try again, {name}!")
             break
-        else:
-            print('Correct!')
+        print('Correct!')
 
     else:
-        if i == COUNT_OF_ROUNDS - 1:
-            print(f'Congratulations, {name}!')
+        print(f'Congratulations, {name}!')

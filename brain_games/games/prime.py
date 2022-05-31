@@ -1,14 +1,13 @@
 from random import randint
-QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_task_answer():
     task = randint(1, 100)
+    correct_answer = 'no'
 
     if is_prime(task):
         correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
 
     return (task, correct_answer)
 
@@ -20,3 +19,4 @@ def is_prime(number):
             if number % d == 0:
                 return False
         return True
+    return False
