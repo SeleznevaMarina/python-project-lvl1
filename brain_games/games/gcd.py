@@ -1,6 +1,6 @@
 from random import randint
 from math import gcd
-GAME_RULES = 'Find the greatest common divisor of given numbers.'
+RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def get_task_answer():

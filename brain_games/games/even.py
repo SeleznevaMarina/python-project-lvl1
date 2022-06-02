@@ -1,5 +1,5 @@
 from random import randint
-GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_task_answer():

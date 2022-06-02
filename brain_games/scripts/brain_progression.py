@@ -1,9 +1,9 @@
 from brain_games.game_frame import run
-from brain_games.games import progress
+from brain_games.games import progression
 
 
 def main():
-    run(progress)
+    run(progression)
 
 
 if __name__ == '__main__':

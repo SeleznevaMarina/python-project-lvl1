@@ -1,5 +1,5 @@
 from random import randint, choice
-GAME_RULES = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
 
 
 def get_task_answer():
