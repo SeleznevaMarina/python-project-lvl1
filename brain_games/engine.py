@@ -8,7 +8,7 @@ def run(game):
     print(f'Hello, {name}!')
     print(game.RULE)
 
-    for i in range(ROUNDS_COUNT):
+    for _ in range(ROUNDS_COUNT):
         (task, correct_answer) = game.get_task_answer()
         print(f'Question: {task}')
         answer = prompt.string('Answer: ')
